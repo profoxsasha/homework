@@ -1,263 +1,67 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 if __name__ != '__main__':
     pass
 
-#
-# def print_hi(name):
-#     # Use a breakpoint in the code line below to debug your script.
-#     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-#
-#
-# Press the green button in the gutter to run the script.
 else:
-    # ex 3
-    f = input("ввидите слово: ")
-    print("в слове синвалов: " + str(len(f)))
-    # ex 1
-#     a = 5
-#     # d = input("ввидите число 1")
-#     # a = input("ввидите число 2")
-#     # res = d == a
-#     # print("результат сравнения "+str(res ))
-      # ex 2
-#     g = input("ввидете сторону квадрата 1")
-#     e = input("ввидете сторону квадрата 2")
-#     p1 = 4* int(g)
-#     p2 = 4* int(e)
-#     print("peremeters of squares 1 and 2 : "+str(p1 )+" "+str(p2))
 
-#     b = 5
-#     print(a + b)
-#     c=78
-#     d=99
-#     t=c
-#     c=d
-#     d =t
-#     print(c)
-#     print(d)
-#     dollors = 1
-#     rate = 97
-#     rubls= rate*dollors
-#     print(rubls)
-#     maths = 5
-#     music = 4
-#     rus = 3
-#     avg = (maths+music+rus)/3
-#     print(avg)
-#     x = 10
-#     y =3
-#     dif =x%y
-#     print(dif)
-#
-# # See PyCharm help at https://www.jetbrains.com/help/pycharm/
-#
-# import turtle
-# turtle.color("blue")
-# turtle.right(90)
-# turtle.forward(90)
-# turtle.right(90)
-# turtle.forward(90)
-# turtle.right(90)
-# turtle.forward(90)
-# turtle.right(90)
-# turtle.forward(90)
-# turtle.right(90)
-# turtle.forward(60)
-#
-# turtle.speed(0)
-# turtle.color("yellow")
-# turtle.right(90)
-# turtle.forward(30)
-# turtle.left(90)
-# turtle.forward(90)
-# turtle.left(90)
-# turtle.forward(90)
-# turtle.left(90)
-# turtle.forward(90)
-# turtle.left(90)
-# turtle.forward(60)
-# turtle.right(180)
-# turtle.forward(30)
-# turtle.right(90)
-# turtle.color("black")
-# turtle.forward(30)
-# turtle.left(90)
-# turtle.forward(90)
-# turtle.left(90)
-# turtle.forward(90)
-# turtle.left(90)
-# turtle.forward(90)
-# turtle.left(90)
-# turtle.forward(90)
-# turtle.left(90)
-# turtle.forward(60)
-# turtle.left(90)
-# turtle.color("green")
-# turtle.forward(30)
-# turtle.right(90)
-# turtle.forward(90)
-# turtle.right(90)
-# turtle.forward(90)
-# turtle.right(90)
-# turtle.forward(90)
-# turtle.right(90)
-# turtle.forward(90)
-# turtle.right(90)
-# turtle.forward(60)
-# turtle.right(90)
-# turtle.color("red")
-# turtle.forward(30)
-# turtle.left(90)
-# turtle.forward(90)
-# turtle.left(90)
-# turtle.forward(90)
-# turtle.left(90)
-# turtle.forward(90)
-# turtle.left(90)
-# turtle.forward(90)
-# import turtle
-#
-# urtle.forward(240)
-# turtle.left(135)
-# turtle.forward(180)
-# turtle.left(90)
-# turtle.forward(180)
-# turtle.left(135)
-# turtle.forward(240)
-# turtle.right(90)
-# turtle.forward(240)
-# turtle.right(90)
-# turtle.forward(230)
-# turtle.right(90)
-# turtle.forward(240)
-# turtle.right(180)
-# turtle.forward(240)
-# turtle.left(90)
-# turtle.forward(100)
-# turtle.left(90)
-# turtle.forward(180)
-# turtle.left(90)
-# turtle.forward(100)
-# turtle.right(180)
-# turtle.forward(230)
-# turtle.right(90)
-# turtle.forward(80)
-# turtle.right(90)
-# turtle.forward(80)
-# turtle.right(90)
-# turtle.forward(80)
-# t
-# turtle.speed(987654390257565843)
-# turtle.mainloop()
-# import turtle
-#
-# turtle.forward(240)
-# turtle.right(90)
-# turtle.forward(60)
-# turtle.right(180)
-# turtle.forward(120)
-# turtle.right(180)
-# turtle.forward(60)
-# turtle.right(90)
-# turtle.forward(480)
-# turtle.right(90)
-# turtle.forward(60)
-# turtle.right(180)
-# turtle.forward(120)
-# turtle.right(180)
-# turtle.forward(60)
-# turtle.right(90)
-# turtle.forward(240)
-# turtle.right(90)
-# turtle.forward(240)
-# turtle.right(90)
-# turtle.forward(60)
-# turtle.right(180)
-# turtle.forward(120)
-# turtle.right(180)
-# turtle.forward(60)
-# turtle.right(90)
-# turtle.forward(480)
-# turtle.right(90)
-# turtle.forward(60)
-# turtle.right(180)
-# turtle.forward(120)
-# turtle.right(180)
-# turtle.forward(60)
-# turtle.right(90)
-# turtle.forward(240)
-# turtle.right(45)
-# turtle.forward(240)
-# turtle.right(90)
-# turtle.forward(60)
-# turtle.right(180)
-# turtle.forward(120)
-# turtle.right(180)
-# turtle.forward(60)
-# turtle.right(90)
-# turtle.forward(480)
-# turtle.right(90)
-# turtle.forward(60)
-# turtle.right(180)
-# turtle.forward(120)
-# turtle.right(180)
-# turtle.forward(60)
-# turtle.right(90)
-# turtle.forward(240)
-# turtle.left(90)
-# turtle.forward(240)
-# turtle.right(90)
-# turtle.forward(60)
-# turtle.right(180)
-# turtle.forward(120)
-# turtle.right(180)
-# turtle.forward(60)
-# turtle.right(90)
-# turtle.forward(480)
-# turtle.right(90)
-# turtle.forward(60)
-# turtle.right(180)
-# turtle.forward(120)
-# turtle.right(180)
-# turtle.forward(60)
-# turtle.right(90)
-# turtle.right(45)
-# turtle.forward(90)
-# turtle.left(90)
-# turtle.forward(90)
-# turtle.right(90)
-# turtle.forward(90)
-# turtle.left(90)
-# turtle.forward(90)
-# turtle.right(90)
-# turtle.forward(90)
-# turtle.left(90)
-# turtle.forward(90)
-# turtle.right(90)
-# turtle.forward(90)
-# turtle.left(90)
-# turtle.forward(90)
-# turtle.right(90)
-# turtle.forward(90)
-# turtle.left(90)
-# turtle.forward(90)
-# turtle.right(90)
-# turtle.forward(90)
-# turtle.left(90)
-# turtle.forward(90)
-# turtle.right(90)
-# turtle.forward(90)
-# turtle.left(90)
-# turtle.forward(90)
-# turtle.right(90)
-# turtle.forward(90)
-# turtle.left(90)
-# turtle.forward(90)
-# turtle.right(90)
-# turtle.forward
 
-# turtle.mainloop()
+    # age = int(input("ввидите возраст"))
+    # if (age < 11):
+    #     print("вы ребёнок")
+    # elif (age <= 19):
+    #     print("вы подросток")
+    # else:
+    #     print("вы взрослый")
+
+    # number = int(input("ввидите число"))
+    # ost = number % 2
+    # if(ost ==  0):
+    #     print("чётное число")
+    # else:
+    #     print("нечётное число")
+
+    # a = int(input("введите оценку от 0 до 100"))
+    # if(a >=90):
+    #     print("отлично!")
+    # elif a >= 75 and a < 89:
+    #     print("хорошо")
+    # elif a >= 51 and a < 74:
+    #     print("одув")
+    # else:
+    #     print("плохо")
+
+    # a = int(input("введите сторону треугольника"))
+    # b = int(input("введите сторону треугольника"))
+    # c = int(input("введите сторону треугольника"))
+    # if(a == b ==  c):
+    #     print("равно сторонный")
+    # elif(a == b or b == c or a ==c ):
+    #     print("равно бедренный")
+    # else:
+    #     print("неравный")
+
+    p = int(input("введите номер месеца"))
+    if (p == 1):
+        print("jan 31 days")
+    elif (p == 2):
+        print("feb 28 days")
+    elif (p == 3):
+        print("march 31 days")
+    elif(p == 4):
+        print("april 30 days")
+    elif(p == 5):
+        print("may 31 days")
+    elif(p == 6):
+        print("june 30 days")
+    elif(p == 7):
+        print("july 31 days")
+    elif (p == 8):
+        print("aug 31 days")
+    elif(p == 9):
+        print("sep 30 days")
+    elif(p == 10):
+        print("oct 31 days")
+    elif(p == 11):
+        print("nov 30 days")
+    elif(p == 12):
+        print("dec 31 days")
