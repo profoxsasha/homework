@@ -4,64 +4,24 @@ if __name__ != '__main__':
 
 else:
 
+    # name = "sasha"
+    # age = 10
+    # print("Hello my name is %s! i'm %d years old!"%(name,age))
 
-    # age = int(input("ввидите возраст"))
-    # if (age < 11):
-    #     print("вы ребёнок")
-    # elif (age <= 19):
-    #     print("вы подросток")
-    # else:
-    #     print("вы взрослый")
+    name1 = "sasha"
+    age1 = 10
+    name2 = "Vova"
+    age2 = 10
+    name3 = "Tima"
+    age3 = 11
+    print("name\t\tage\n%s\t\t%d\n%s\t\t%d\n%s\t\t%d"%(name1,age1,name2,age2,name3,age3))
 
-    # number = int(input("ввидите число"))
-    # ost = number % 2
-    # if(ost ==  0):
-    #     print("чётное число")
-    # else:
-    #     print("нечётное число")
-
-    # a = int(input("введите оценку от 0 до 100"))
-    # if(a >=90):
-    #     print("отлично!")
-    # elif a >= 75 and a < 89:
-    #     print("хорошо")
-    # elif a >= 51 and a < 74:
-    #     print("одув")
-    # else:
-    #     print("плохо")
-
-    # a = int(input("введите сторону треугольника"))
-    # b = int(input("введите сторону треугольника"))
-    # c = int(input("введите сторону треугольника"))
-    # if(a == b ==  c):
-    #     print("равно сторонный")
-    # elif(a == b or b == c or a ==c ):
-    #     print("равно бедренный")
-    # else:
-    #     print("неравный")
-
-    p = int(input("введите номер месеца"))
-    if (p == 1):
-        print("jan 31 days")
-    elif (p == 2):
-        print("feb 28 days")
-    elif (p == 3):
-        print("march 31 days")
-    elif(p == 4):
-        print("april 30 days")
-    elif(p == 5):
-        print("may 31 days")
-    elif(p == 6):
-        print("june 30 days")
-    elif(p == 7):
-        print("july 31 days")
-    elif (p == 8):
-        print("aug 31 days")
-    elif(p == 9):
-        print("sep 30 days")
-    elif(p == 10):
-        print("oct 31 days")
-    elif(p == 11):
-        print("nov 30 days")
-    elif(p == 12):
-        print("dec 31 days")
+    a = int(input("введите число"))
+    m = int(input("введите месец"))
+    y = int(input("введите год"))
+    if(a<=0 or a >31):
+        print("неверная дата")
+    elif(m<=0 or m>12):
+        print("неверная дата")
+    else:
+        print("%d.%d.%d"%(a,m,y))
