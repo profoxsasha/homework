@@ -36,15 +36,23 @@ else:
     #     if(u%2!=0):
     #         print(u)
 
-     # r = int(input("введите число"))
-     # for t in range(1,11):
-     #     print("%d*%d=%d"%(t,r,t*r))
-    s = 0
-    r = int(input("введите число"))
-    s=r+s
-    while r != 0:
-        r = int(input("введите число"))
-        s=r+s
-    print("сумма %d"%(s))
+    # r = int(input("введите число"))
+    # for t in range(1,11):
+    #     print("%d*%d=%d"%(t,r,t*r))
+    # s = 0
+    # r = int(input("введите число"))
+    # s=r+s
+    # while r != 0:
+    #     r = int(input("введите число"))
+    #     s=r+s
+    # print("сумма %d"%(s))
+# #3
+      e = int(input("введите число"))
+      for u in range(1, e):
+          o = (e - u) / 2
+          print(" "*o)
+          print("*" * u)
+          print(" " * o)
+
 
 
